@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Page</title>
+	<link href="st.css" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel:400,700" rel="stylesheet">
+</head>
+
+<body id="body">
+	<div class="jumbotron" id="jumbotron">
+		<h1>Computer Society</h1>
+		<p>Naya Raipur</p>		
+	</div>
+	<div class="container" id="main_block">
+		<div>
+ <!-- Nav tabs -->
+	  		<ul class="nav nav-tabs" role="tablist">
+	   			<li role="presentation" class="tab active"><a href="#signup" aria-controls="home" role="tab" data-toggle="tab">Sign Up</a></li>
+	    		<li role="presentation" class="tab"><a href="#login" aria-controls="profile" role="tab" data-toggle="tab">Login</a></li>
+			</ul>
+ <!-- Tab panes -->
+		    <div class="tab-content">
+			    <div role="tabpanel" class="tab-pane fade in active" id="signup">
+			    	<form>
+			    		<div class="form-group" id="firstFieldRegister">
+			    			<div class="input-group">			    				
+			    				<label id="name_to_register" class="input-group-addon"><i class="glyphicon glyphicon-user"></i></label>
+			    				<input class="form-control" type="text" name="name_to_register" placeholder="Name" required>
+			    			</div>
+			    		</div>
+			    		<div class="form-group">
+			    			<div class="input-group"> 
+			    				<label class="input-group-addon" id="username_to_register"><i class="glyphicon glyphicon-pencil"></i></label>
+			    				<input class="form-control" type="text" name="username_to_register" placeholder="Username" required>
+			    			</div>
+			    		</div>
+			    		<div class="form-group">
+			    			<div class="input-group">
+			    				<label class="input-group-addon" id="email_to_register"><i class="glyphicon glyphicon-envelope"></i></label>
+			    				<input class="form-control" type="email" name="email_to_register" placeholder="Email" required>
+			    			</div>
+			    		</div>
+			    		<div class="form-group">
+			    			<div class="input-group">  				
+			    				<label class="input-group-addon" id="password_to_register"><i class="glyphicon glyphicon-lock"></i></label>
+			    				<input class="form-control" type="password" name="password_to_register" placeholder="Password" required pattern="(?=.*\d).{8,15}" title="Must contain at least one number and 8-15 characters" required>
+			    			</div>		    	
+			    		</div>
+			    		<div class="form-group">
+			    			<div class="input-group">
+			    				<label class="input-group-addon" id="institute"><i class="glyphicon glyphicon-education"></i></label>
+			    				<input class="form-control" type="text" name="institute" placeholder="Institute" required>
+			    			</div>
+			    		</div>
+			    		<div class="form-group">
+			    			<div class="input-group">
+			    				<label class="input-group-addon" id="city"><i class="glyphicon glyphicon-globe"></i></label>
+			    				<input class="form-control" type="text" name="city" placeholder="City" required>
+			    			</div>	
+			    		</div>
+			    		<div class="form-group button">
+			    			<button class="btn-primary btn btn-lg">Sign up</button>
+			    		</div>					
+					</form>
+				</div>
+				<div role="tabpanel" class="tab-pane fade" id="login">
+					<form>
+			    		<div class="form-group" id="firstFieldLogin">
+			    			<div class="input-group">
+			    				<label class="input-group-addon" id="username_to_login"><i class="glyphicon glyphicon-user"></i></label>
+			    				<input class="form-control" type="text" name="username_to_login" placeholder="Name" required>
+			    			</div>
+			    		</div>
+			    		<div class="form-group">
+			    			<div class="input-group">
+			    				<label class="input-group-addon" id="password+to_login"><i class="glyphicon glyphicon-lock"></i></label>
+			    				<input class="form-control" type="password" name="password_to_login" placeholder="Password" required>
+			    			</div>
+			    		</div>
+			    		<div class="form-group button">
+			    			<button class="btn-primary btn btn-lg">Login</button>
+			    		</div>
+			    	</form>
+				</div>		    
+		    </div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
